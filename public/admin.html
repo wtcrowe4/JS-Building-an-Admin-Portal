@@ -1,16 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Admin Portal</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 
 <body>
-   <div id="root">
-       
-   </div>
+    <div id="root">
+    </div>
+    <hr>
+    <div id="new-form">
+        <form>
+            <h4>Add New Book</h4>
+            <label for="title" title="title">Book Title</label>
+            <input for="title" type="text" title="title">
+            <br>
+            <label for="description" title="description">Book Description</label>
+            <input for="description" type="text" title="description">
+            <br>
+            <label for="image" title="image">Book Image</label>
+            <input for="image" type="url" title="image">
+        </form>
+    </div>
+
+    <div id="addbtn">
+    </div>
+
     <!-- Our JavaScript Code  -->
     <script src="admin.js"></script>
 </body>
